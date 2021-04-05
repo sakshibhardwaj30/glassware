@@ -4,7 +4,7 @@
     font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 header{
-    background-image: url(../image1.jpg);
+    background-image: url(./image1.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
