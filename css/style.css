@@ -85,9 +85,10 @@ label #cancel{
     margin-left: 250px;
 }
 section{
-    background: url(images/image1.jpg)  no-repeat ;
-    background-position: center;
-    background-size: cover;
+    background: url("../images/hanging.jpg");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover ;
     height: 100vh;
     transition: all .6s;
 }
