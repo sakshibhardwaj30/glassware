@@ -1,44 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    font-family: 'Dancing Script', cursive;
+}
 *{
     margin: 0;
     padding: 0;
-    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-header{
-    background-image: url(./image1.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
-
-ul{
-    list-style-type: none;
-    float: right;
-    margin-top: 25px;
-}
-ul li{
-    display: inline-block;
-}
-ul li a {
+    list-style: none;
     text-decoration: none;
-    color: #fff;
-    padding: 5px 20px;
-    border: 1px solid transparent;
-    transition: 0.8s ease;
+}
+.sidebar{
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #042331;
+    transition: all .6s ease;
+}
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #063146;
+    user-select: none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+    transition: .5s;
+}
+ul li:hover a{
+    padding-left: 50px;
+}
+#check{
+    display: none;
+}
+label #btn,label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: #042331;
+    border-radius: 3px;
 
-}ul li a:hover{
-    background-color: #fff;
-    color: black;
 }
-ul li.active a{
-    background-color: #fff;
-    color: #000;
+label #btn{
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .6s  ease;
+
 }
-.logo img{
-    float: left;
-    width: 150px;
-    height: auto;
+label #cancel{
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    background: #0a5275;
+    padding: 4px 9px;
+    transition: all 0.6s ease;
 }
-.main{
-    max-width: 1200px;
-    margin: auto;
+#check:checked ~ .sidebar{
+    left: 0;
+
+}
+#check:checked ~ label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked ~ label #cancel{
+    left: 195px;
+}
+#check:checked ~ section{
+    margin-left: 250px;
+}
+section{
+    background: url(image1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transition: all .6s;
 }
