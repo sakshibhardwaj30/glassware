@@ -86,6 +86,27 @@ label #cancel{
 #check:checked ~ section{
     margin-left: 250px;
 } 
+body{
+    background-color: rgba(27,31,34,0.85);
+}
+h1{
+    font-size: 2.1rem;
+    line-height: 1.4;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+
+}
+.maindiv{
+    width: 90%;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(../images/);
+   
+}
  /* section{
     background: url("../images/hanging.jpg");
     background-repeat: no-repeat;
