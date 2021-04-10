@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+    crossorigin="anonymous">
+    <style>
+        body{
+            font-family: 'Bitter';font-size: 22px;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="header1">
+            <h1 style="color:orange;">SIGNIN YOUR ACCOUNT</h1>
+        </div>
+        <form class="form" id="form">
+            <div class="form-control1">
+                <label for="user">Username</label>
+            <input type="text" id="user" placeholder="Enter your user name">           
+            <i class="fa fa-check-circle"></i>
+            <i class="fa fa-exclamation-circle"></i>
+            <small>Error Msg</small>
+        </div>
+
+        <div class="form-control1">
+            <label for="password1">Enter Your Password</label>
+            <input type="password" id="password1" placeholder="Enter Your Password">
+            <i class="fa fa-check-circle"></i>
+            <i class="fa fa-exclamation-circle"></i>
+            <small>Error Msg</small>  
+        </div>
+
+        <a type="submit">LOG-IN</a>
+        </form>
+        <h3 class="login">Don't have a Account??</h3>
+        <h4 class="log"> <a href="signup.html">SIGNUP</a></h4>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
