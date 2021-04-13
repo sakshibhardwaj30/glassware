@@ -1,0 +1,102 @@
+.available {
+    width: 100%;
+    height: auto;
+    background-image: url(../images/texture.jpg);
+    background-size: cover;
+    /* background: linear-gradient(to bottom right, rgb(179, 67, 67), rgb(138, 52, 52), rgb(163, 64, 163)); */
+    overflow: hidden;
+    position: relative;
+}
+
+.available .rooms {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.available .rooms .room-types {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 10px 20px 0;
+    position: relative;
+}
+
+.available .rooms .room-design {
+    width: 30%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    margin: 0px 20px 20px;
+}
+
+.rooms .room-design .image {
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.rooms .room-design img {
+    width: 100%;
+    height: 100%;
+}
+
+.room-design:hover .image .overlay-hidden {
+    opacity: 1;
+}
+
+.rooms .room-design .image .price {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #fff;
+    color: grey;
+    padding: 5px;
+}
+
+.rooms .room-design .content-room {
+    padding: 15px;
+    background-color: #fff;
+    color: grey;
+    text-align: center;
+    position: relative;
+}
+
+.room-design .content-room h2 {
+    font-size: 1.8rem;
+    font-family: 'Acme';
+    margin-bottom: 8px;
+}
+
+.room-design .content-room h4 {
+    font-size: 1rem;
+    font-family: cursive;
+    margin-bottom: 12px;
+}
+
+.room-design .content-room hr {
+    width: 20%;
+    margin: 5px auto;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.541), 0 0 20px rgba(255, 255, 255, 0.144), 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.445), 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
