@@ -1,0 +1,102 @@
+#contact{
+    background-image: url(../images/contact_texture.jpg);
+}
+.sakshi{
+    width:200px ;
+    height:250px;
+    margin-left: 60px;
+    border-radius: 10%;
+    
+
+}
+.heading_sakshi{
+    letter-spacing: 2px;
+    color: wheat;
+    margin-left: 70px;
+    font-size: 24px;
+    padding-top: 20px;
+    line-height: 30px;
+
+}
+.kajol{
+    width:200px ;
+    height:250px;
+    margin-left: 100px;
+    border-radius: 10%;
+
+   
+
+}
+.heading_kajol{
+    letter-spacing: 2px;
+    color: wheat;
+    margin-left: 100px;
+    font-size: 24px;
+    padding-top: 20px;
+    line-height: 30px;
+
+}
+
+.stuti{
+    width:200px ;
+    height:250px;
+    margin-left: 100px;
+    border-radius: 10%;
+    
+}
+.heading_stuti{
+    letter-spacing: 2px;
+    color: wheat;
+    margin-left: 100px;
+    font-size: 24px;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.ritika{
+    width:200px ;
+    height:250px;
+    margin-left: 100px;
+    border-radius: 10%;
+   
+}
+.heading_ritika{
+    letter-spacing: 2px;
+    color: wheat;
+    margin-left: 100px;
+    font-size: 24px;
+    padding-top: 20px;
+    line-height: 30px;
+}
+.sakshi:hover { 
+    color: #111; 
+    background: goldenrod; 
+    box-shadow: 0 0 50px gold; 
+} 
+.kajol:hover { 
+    color: #111; 
+    background: goldenrod; 
+    box-shadow: 0 0 50px gold; 
+} 
+.stuti:hover { 
+    color: #111; 
+    background: goldenrod; 
+    box-shadow: 0 0 50px gold; 
+} 
+.ritika:hover { 
+    color: #111; 
+    background: goldenrod; 
+    box-shadow: 0 0 50px gold; 
+} 
+.neon {
+    color: #fff;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 10px #fff,
+    0 0 10px gray,
+    0 0 10px gray,
+    0 0 20px gainsboro,
+    0 0 20px gainsboro,
+    0 0 20px gainsboro;
+  } 
