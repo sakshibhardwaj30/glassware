@@ -123,6 +123,7 @@ nav.sticky {
 }
 #contact{
     background-image: url(../images/contact_texture.jpg);
+    height: 100vh;
 }
 .sakshi{
     width:200px ;
