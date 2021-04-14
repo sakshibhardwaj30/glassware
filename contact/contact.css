@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html {
+    scroll-padding-top: 70px;
+    scroll-behavior: smooth;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40px 10px 50px;
+    transition: 0.6s;
+    z-index: 100000;
+    overflow: hidden;
+}
+
+nav .logo-div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: 0.6s;
+    float: left;
+}
+
+nav .logo-div img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+nav .logo-div .logo {
+    font-size: 2.8rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'Marck Script';
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+nav .logo-div .logo span {
+    color: orange;
+    font-family: 'Grenze Gotisch';
+}
+
+nav .nav-bar {
+    position: relative;
+    float: right;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+nav::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    position: relative;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    margin: 0 15px;
+    font-size: 1.5rem;
+    font-family: 'Grenze Gotisch';
+    letter-spacing: 1px;
+    transition: 0.6s;
+    padding: 0 2px;
+}
+
+nav ul li a.active {
+    color: orange;
+}
+
+nav ul li::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    transition: all 0.6s;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+
+nav ul li:last-child:hover::after {
+    width: 0%;
+}
+
+nav.sticky {
+    padding: 5px 35px;
+    background-color: #000;
+}
+#contact{
+    background-image: url(../images/contact_texture.jpg);
+    height: 100vh;
+}
+.sakshi{
+    width:200px ;
+    height:250px;
+    margin-left: 60px;
+    border-radius: 10%;
+    
+
+}
+.heading_sakshi{
+    letter-spacing: 2px;
+    color: wheat;
+    margin-left: 70px;
+    font-size: 24px;
+    padding-top: 20px;
+    line-height: 30px;
+
+}
+.kajol{
+    width:200px ;
+    height:250px;
+    margin-left: 100px;
+    border-radius: 10%;
+
+   
+
+}
+.heading_kajol{
+    letter-spacing: 2px;
+    color: wheat;
+    margin-left: 100px;
+    font-size: 24px;
+    padding-top: 20px;
+    line-height: 30px;
+
+}
+
+.stuti{
+    width:200px ;
+    height:250px;
+    margin-left: 100px;
+    border-radius: 10%;
+    
+}
+.heading_stuti{
+    letter-spacing: 2px;
+    color: wheat;
+    margin-left: 100px;
+    font-size: 24px;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.ritika{
+    width:200px ;
+    height:250px;
+    margin-left: 100px;
+    border-radius: 10%;
+   
+}
+.heading_ritika{
+    letter-spacing: 2px;
+    color: wheat;
+    margin-left: 100px;
+    font-size: 24px;
+    padding-top: 20px;
+    line-height: 30px;
+}
+.sakshi:hover { 
+    color: #111; 
+    background: goldenrod; 
+    box-shadow: 0 0 50px gold; 
+} 
+.kajol:hover { 
+    color: #111; 
+    background: goldenrod; 
+    box-shadow: 0 0 50px gold; 
+} 
+.stuti:hover { 
+    color: #111; 
+    background: goldenrod; 
+    box-shadow: 0 0 50px gold; 
+} 
+.ritika:hover { 
+    color: #111; 
+    background: goldenrod; 
+    box-shadow: 0 0 50px gold; 
+} 
+.neon {
+    color: #fff;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 10px #fff,
+    0 0 10px gray,
+    0 0 10px gray,
+    0 0 20px gainsboro,
+    0 0 20px gainsboro,
+    0 0 20px gainsboro;
+  } 
