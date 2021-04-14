@@ -109,6 +109,7 @@ label #cancel{
     background-image: url(../images/image21.jpg);
     padding: 4px 9px;
     transition: all 0.6s ease;
+    color: #fff;
 }
 #check:checked ~ .sidebar{
     left: 0;
@@ -122,7 +123,9 @@ label #cancel{
 #check:checked ~ label #cancel{
     left: 195px;
 }
-
+i{
+    color: #fff;
+}
 .available {
     width: 100%;
     height: auto;
@@ -299,7 +302,7 @@ span{
     color: wheat;
     margin-bottom: 5px;
 }
-i{
+#foo{
     margin-right: 10px;
     margin-bottom: 5px;
     color: wheat;
