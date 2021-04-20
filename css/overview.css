@@ -21,7 +21,7 @@ h1{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-image: url(../images/15.jpg);
+    background-image: url(../images/chandelier1.jpg);
     background-size: 100% 100%;
     box-shadow: 1px 2px 10px 5px white;
     animation: slider 50s infinite linear;
